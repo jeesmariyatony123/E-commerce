@@ -1,4 +1,4 @@
-body{
+body {
     background-color: aliceblue;
 }
 
@@ -24,6 +24,11 @@ body{
     vertical-align: top;
     margin-left: -10px;
 }
+.syne-tactile-regular {
+    font-family: "Syne Tactile", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 /* MainBody.jsx */
 .mainimage {
@@ -57,17 +62,15 @@ p {
 }
 
 /* Card.jsx */
-body .card {
+
+.cardis {
     margin: 0;
     padding: 0;
     background-color: aliceblue;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0px;
-    /* grid-auto-rows: minmax(100px, auto); */
-    padding: 20px 70px 70px 70px;
-   
-
+    padding: 50px 70px 100px 70px;
 }
 
 .card_container {
@@ -107,13 +110,11 @@ body .card {
     font-size: 2vw;
     position: absolute;
     text-align: start;
-    /* font-family: 'Damion', cursive; */
-    /* transform: rotate(-5deg)skewX(-5deg); */
+
 }
 
 .card_overlay p {
     text-align: start;
-    /* font-family: 'Roboto', sans-serif; */
     color: white;
     font-size: 1vw;
     margin: 85% 1% 2% 5%;
@@ -125,4 +126,40 @@ body .card {
     font-family: 'Roboto', sans-serif;
     margin: 5% 0 56% 5%;
 
+}
+
+/* Products.jsx */
+
+.products {
+    padding: 70px 0 0 5%;
+}
+
+.productimg {
+    height: 33vh;
+}
+
+.productindiv .panel {
+    position: absolute;
+    top: 15px;
+    right: -40%;
+    width: 45px;
+    background: rgba(255, 255, 255, .8);
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    opacity: 0;
+}
+.productindiv:hover .panel {
+    right: 15px;
+    opacity: 1;
+}
+
+.productindiv .panel .icon {
+    font-size: 20px;
+    color: #333;
+    margin: 15px 0;
+}
+
+.productindiv .panel .icon:hover {
+    color: rgba(255, 0, 0, 0.9);
 }

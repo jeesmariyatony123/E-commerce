@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import MainBody from './components/MainBody'
 import Card from './components/Card'
 import Products from './components/Products'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <MainBody />
       <Card />
       <Products />
+      <Footer />
     </>
   )
 }
