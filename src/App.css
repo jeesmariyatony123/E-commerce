@@ -1,0 +1,128 @@
+body{
+    background-color: aliceblue;
+}
+
+/* NavBar.jsx */
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+    background-color: #c67605;
+}
+
+#lblCartCount {
+    font-size: 14px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px;
+}
+
+/* MainBody.jsx */
+.mainimage {
+    background-image: url(https://images.ctfassets.net/rxqefefl3t5b/6I2vL9f0IVsDQ8qFgdrxH7/7660c4bab3116a4a04025d5c4802efa5/Virgin-Red-online-shopping-offers.jpg?fl=progressive&q=80);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mainpara {
+    padding-top: 14%;
+    margin-left: 90px;
+}
+
+.mainpara h1 {
+    font-size: 4.5rem;
+}
+
+.mainpara p {
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.mainpara h1,
+p {
+    font-weight: 900;
+}
+
+/* Card.jsx */
+body .card {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    /* grid-auto-rows: minmax(100px, auto); */
+    padding: 20px 70px 70px 70px;
+   
+
+}
+
+.card_container {
+
+    margin: 16% 0 0 7%;
+    position: relative;
+    width: 85%;
+}
+
+.card_image {
+    display: block;
+    width: 100%;
+    height: 70vh;
+
+}
+
+.card_overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(53, 53, 53, 0.75);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.card_container:hover .card_overlay {
+    height: 100%;
+}
+
+.card_overlay h1 {
+    width: 100%;
+    margin: 70% 0 0 5%;
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+    text-align: start;
+    /* font-family: 'Damion', cursive; */
+    /* transform: rotate(-5deg)skewX(-5deg); */
+}
+
+.card_overlay p {
+    text-align: start;
+    /* font-family: 'Roboto', sans-serif; */
+    color: white;
+    font-size: 1vw;
+    margin: 85% 1% 2% 5%;
+    letter-spacing: 5px;
+    line-height: 1.5em;
+}
+
+.card_overlay Button {
+    font-family: 'Roboto', sans-serif;
+    margin: 5% 0 56% 5%;
+
+}
