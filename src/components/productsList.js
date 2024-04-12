@@ -7,7 +7,7 @@ export const productList = [
         rating: "SHOP NOW"
     },
     {
-        image: "https://pallaviraghuvanshi.in/wp-content/uploads/2021/03/sports-shoe1-4.jpg",
+        image: "https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/03/sports-shoe1-400x400.jpg",
         heading: "DNK Blue Shoes",
         category: "Men",
         price: "$200.00",
